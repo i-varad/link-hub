@@ -132,6 +132,7 @@ body {
 
 /* ------------------------------------------------------------ */
 
+/* ------------------------------------------------------------ */
 
 .main-links-featured,
 .main-links-others {
@@ -156,20 +157,20 @@ body {
 
 .main-links-featured .link-wrapper,
 .main-links-others .link-wrapper {
-
+    
     height: 3rem;
     width: 100%;
-
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+    
     padding: 0rem .2rem;
     border-radius: 25px;
-
+    
     border: 1px solid rgb(0, 0, 0);
-
+    
 }
 
 .link-wrapper .link-head {
@@ -187,4 +188,16 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+/* ------------------------------------------------------------ */
+
+
+/* Media Queries */
+
+@media screen and (max-width:400px){
+   
+    .main-wrapper .main-hero{
+        margin-top: 3rem;
+    }
+    
 }
